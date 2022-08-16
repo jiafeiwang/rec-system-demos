@@ -6,7 +6,7 @@ model demos of recommender system
   <img src='https://img.shields.io/badge/keras-2.2.4-brightgreen'>
 </p>  
 
-本仓库展示了推荐系统上常用的几种排序模型的demo，包括：
+用tf2实现了推荐系统上常用的几种排序模型的demo，包括：
 
 FM
 
@@ -20,4 +20,4 @@ AFM、DIN
 
 models包中给出了模型的定义，中间层的定义位于layers包中；
 
-utils下的train.py中给出了两种常用的训练方式。
+base_train.py和advanced_train.py提供了两套训练方法。
