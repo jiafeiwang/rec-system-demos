@@ -1,4 +1,4 @@
-# rec-system-demos
+# rec-system-tf2
 model demos of recommender system 
 <p align="left">
   <img src='https://img.shields.io/badge/python-3.7-blue'>
