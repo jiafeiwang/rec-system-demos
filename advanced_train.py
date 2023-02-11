@@ -8,7 +8,6 @@ import tensorflow as tf
 from tensorflow.keras.optimizers import RMSprop, Adam
 
 if __name__ == '__main__':
-    # 本训练过程存在过拟合，请忽略训练结果~
 
     file_path = 'data/demo_data.txt'
     (dense_feature_info, sparse_feature_info), data = create_demo_dataset(file_path)
