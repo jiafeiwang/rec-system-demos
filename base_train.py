@@ -44,7 +44,6 @@ def valid_one_step(X_val_batch, y_val_batch):
     val_auc.update_state(y_val_batch, pred)
 
 if __name__ == '__main__':
-    # 本训练过程存在过拟合，请忽略训练结果~
 
     file_path = 'data/demo_data.txt'
     (dense_feature_info, sparse_feature_info), data = create_demo_dataset(file_path)
